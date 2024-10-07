@@ -258,7 +258,11 @@ export default function Home() {
       setTimeout(() => setCopiedOutput(false), 2000); // Reset the copied state after 2 seconds
     });
   };
-
+  return (
+    <div className="text-center text-5xl font-sans">
+      Currently not working (under construction!)
+    </div>
+  )
   return (
     <>
       <div id="enterIdea" className=" min-h-screen flex flex-col z-10 bg-gray-100">
