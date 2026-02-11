@@ -100,6 +100,7 @@ export default function Home() {
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    alert("Olympath AI is down and discontinued!");
     if (!idea) {
       alert("Please write a idea for a problem");
       return;
